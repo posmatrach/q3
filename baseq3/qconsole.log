@@ -1,0 +1,3202 @@
+logfile opened on Sun May 12 13:15:48 2024
+
+--- Common Initialization Complete ---
+IP: 127.0.0.1
+IP: 172.26.84.169
+IP6: ::1
+IP6: fe80::215:5dff:feed:ef6b%eth0
+Opening IP socket: 0.0.0.0:27960
+execing server.cfg
+execing levels.cfg
+------ Server Initialization ------
+Server: q3ctf4
+Hunk_Clear: reset the hunk ok
+We are looking in the current search path:
+/home/quake/.q3a/baseq3
+/home/quake/.q3a/baseq3/pak8.pk3 (9 files)
+/home/quake/.q3a/baseq3/pak7.pk3 (4 files)
+/home/quake/.q3a/baseq3/pak6.pk3 (64 files)
+/home/quake/.q3a/baseq3/pak5.pk3 (7 files)
+/home/quake/.q3a/baseq3/pak4.pk3 (272 files)
+/home/quake/.q3a/baseq3/pak3.pk3 (4 files)
+/home/quake/.q3a/baseq3/pak2.pk3 (148 files)
+/home/quake/.q3a/baseq3/pak1.pk3 (26 files)
+/home/quake/.q3a/baseq3/pak0.pk3 (3539 files)
+/usr/lib/ioquake3/baseq3
+
+handle 1: qconsole.log
+----------------------
+4073 files in pk3 files
+Loading vm file vm/qagame.qvm...
+File "vm/qagame.qvm" found in "/home/quake/.q3a/baseq3/pak8.pk3"
+VM file qagame compiled to 1823543 bytes of code
+qagame loaded in 3270560 bytes on the hunk
+------- Game Initialization -------
+gamename: baseq3
+gamedate: Sep 30 2002
+------------------------------------------------------------
+InitGame: \g_maxGameClients\0\capturelimit\8\sv_maxclients\16\g_gametype\4\timelimit\30\fraglimit\0\dmflags\0\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_dlRate\100\sv_maxRate\0\sv_minRate\0\sv_hostname\Namira Q3A CTF\version\ioq3 1.36+u20191029.dc0c3e7~dfsg-1/Ubuntu linux-x86_64 Nov  2 2019\com_gamename\Quake3Arena\com_protocol\71\mapname\q3ctf4\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0
+Gametype changed, clearing session data.
+0 teams with 0 entities
+13 items registered
+-----------------------------------
+------- BotLib Initialization -------
+loaded weapons.c
+loaded items.c
+loaded syn.c
+loaded rnd.c
+loaded match.c
+loaded rchat.c
+------------ Map Loading ------------
+trying to load maps/q3ctf4.aas
+loaded maps/q3ctf4.aas
+found 22 level items
+-------------------------------------
+32 bots parsed
+35 arenas parsed
+AAS initialized.
+-----------------------------------
+execing bots.cfg
+loaded skill 4 from bots/default_c.c
+loaded skill 4 from bots/xaero_c.c
+loaded bots/xaero_i.c
+loaded bots/xaero_w.c
+loaded xaero from bots/xaero_t.c
+ClientConnect: 0
+ClientUserinfoChanged: 0 n\Xaero\t\2\model\xaero\hmodel\xaero\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Xaero^7 connected\n"
+ClientBegin: 0
+loaded cached skill 4.000000 from bots/default_c.c
+loaded skill 4 from bots/biker_c.c
+loaded bots/biker_i.c
+loaded bots/biker_w.c
+loaded biker from bots/biker_t.c
+ClientConnect: 1
+ClientUserinfoChanged: 1 n\Biker\t\1\model\biker\hmodel\biker\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Biker^7 connected\n"
+ClientBegin: 1
+ClientUserinfoChanged: 1 n\Biker\t\1\model\biker\hmodel\biker\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\1
+ClientUserinfoChanged: 1 n\Biker\t\1\model\biker\hmodel\biker\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\1
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+broadcast: print "Biker^7 entered the game\n"
+ClientBegin: 1
+ClientUserinfoChanged: 0 n\Xaero\t\2\model\xaero\hmodel\xaero\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\1
+ClientUserinfoChanged: 0 n\Xaero\t\2\model\xaero\hmodel\xaero\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\1
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+broadcast: print "Xaero^7 entered the game\n"
+ClientBegin: 0
+Item: 1 item_armor_combat
+loaded cached skill 4.000000 from bots/default_c.c
+loaded cached skill 4.000000 from bots/biker_c.c
+ClientConnect: 2
+ClientUserinfoChanged: 2 n\Biker\t\2\model\biker\hmodel\biker\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Biker^7 connected\n"
+ClientBegin: 2
+loaded cached skill 4.000000 from bots/default_c.c
+loaded skill 4 from bots/anarki_c.c
+loaded bots/anarki_i.c
+loaded bots/anarki_w.c
+loaded anarki from bots/anarki_t.c
+ClientConnect: 3
+ClientUserinfoChanged: 3 n\^1A^2n^3a^4r^5k^6i\t\1\model\anarki\hmodel\anarki\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "^1A^2n^3a^4r^5k^6i^7 connected\n"
+ClientBegin: 3
+ClientUserinfoChanged: 2 n\Biker\t\2\model\biker\hmodel\biker\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+broadcast: print "Biker^7 entered the game\n"
+ClientBegin: 2
+ClientUserinfoChanged: 3 n\^1A^2n^3a^4r^5k^6i\t\1\model\anarki\hmodel\anarki\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+broadcast: print "^1A^2n^3a^4r^5k^6i^7 entered the game\n"
+ClientBegin: 3
+Item: 2 item_armor_combat
+Item: 0 item_armor_combat
+Item: 0 weapon_rocketlauncher
+tell: Xaero to Biker: Biker guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Cyber-Scarecrow guard the base
+sayteam: Biker: The enemy flag will be mine!
+(Biker^7): The enemy flag will be mine!
+Kill: 1022 0 22: <world> killed Xaero by MOD_TRIGGER_HURT
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+sayteam: Xaero: I'm on my way to capture the enemy flag.
+(Xaero^7): I'm on my way to capture the enemy flag.
+loaded cached skill 4.000000 from bots/default_c.c
+loaded skill 4 from bots/klesk_c.c
+loaded bots/klesk_i.c
+loaded bots/klesk_w.c
+loaded klesk from bots/klesk_t.c
+ClientConnect: 4
+ClientUserinfoChanged: 4 n\Klesk\t\2\model\klesk\hmodel\klesk\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Klesk^7 connected\n"
+ClientBegin: 4
+loaded cached skill 4.000000 from bots/default_c.c
+loaded skill 4 from bots/phobos_c.c
+loaded bots/phobos_i.c
+loaded bots/phobos_w.c
+loaded phobos from bots/phobos_t.c
+ClientConnect: 5
+ClientUserinfoChanged: 5 n\Phobos\t\1\model\doom/phobos\hmodel\doom/phobos\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Phobos^7 connected\n"
+ClientBegin: 5
+ClientUserinfoChanged: 4 n\Klesk\t\2\model\klesk\hmodel\klesk\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+broadcast: print "Klesk^7 entered the game\n"
+ClientBegin: 4
+ClientUserinfoChanged: 5 n\Phobos\t\1\model\doom/phobos\hmodel\doom/phobos\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+broadcast: print "Phobos^7 entered the game\n"
+ClientBegin: 5
+Item: 3 item_armor_combat
+Item: 3 weapon_rocketlauncher
+sayteam: ^1A^2n^3a^4r^5k^6i: who's the team leader
+(^1A^2n^3a^4r^5k^6i^7): who's the team leader
+Item: 0 weapon_rocketlauncher
+tell: Xaero to Biker: Fat-man guard the base
+tell: Xaero to Klesk: Klesk get the flag
+tell: Biker to Phobos: Phobos defend the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Freak-boy get the enemy flag
+sayteam: Biker: I'm the team leader
+(Biker^7): I'm the team leader
+sayteam: Klesk: I am off to grab the enemy flag!
+(Klesk^7): I am off to grab the enemy flag!
+Kill: 1 0 3: Biker killed Xaero by MOD_MACHINEGUN
+sayteam: Biker: Is there a team leader
+(Biker^7): Is there a team leader
+sayteam: ^1A^2n^3a^4r^5k^6i: I'm going to get the enemy flag.
+(^1A^2n^3a^4r^5k^6i^7): I'm going to get the enemy flag.
+sayteam: Xaero: I'm the team leader
+(Xaero^7): I'm the team leader
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 1 item_health_large
+Kill: 5 2 1: Phobos killed Biker by MOD_SHOTGUN
+loaded cached skill 4.000000 from bots/default_c.c
+loaded skill 4 from bots/bitterman_c.c
+loaded bots/bitterman_i.c
+loaded bots/bitterman_w.c
+loaded bitterman from bots/bitterman_t.c
+ClientConnect: 6
+ClientUserinfoChanged: 6 n\Bitterman\t\2\model\bitterman\hmodel\bitterman\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Bitterman^7 connected\n"
+ClientBegin: 6
+loaded cached skill 4.000000 from bots/default_c.c
+loaded cached skill 4.000000 from bots/anarki_c.c
+ClientConnect: 7
+ClientUserinfoChanged: 7 n\^1A^2n^3a^4r^5k^6i\t\1\model\anarki\hmodel\anarki\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "^1A^2n^3a^4r^5k^6i^7 connected\n"
+ClientBegin: 7
+ClientUserinfoChanged: 6 n\Bitterman\t\2\model\bitterman\hmodel\bitterman\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+broadcast: print "Bitterman^7 entered the game\n"
+ClientBegin: 6
+ClientUserinfoChanged: 7 n\^1A^2n^3a^4r^5k^6i\t\1\model\anarki\hmodel\anarki\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+broadcast: print "^1A^2n^3a^4r^5k^6i^7 entered the game\n"
+ClientBegin: 7
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 4 weapon_rocketlauncher
+Kill: 2 3 1: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 4 item_health_large
+tell: Xaero to Biker: Fat-man guard the base
+tell: Xaero to Bitterman: Kev defend the base
+tell: Xaero to Klesk: Bug get the enemy flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Doood guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Freak-boy get the flag
+tell: Biker to Phobos: Phobos get the enemy flag
+Item: 4 weapon_rocketlauncher
+Item: 1 weapon_rocketlauncher
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 0 weapon_rocketlauncher
+sayteam: ^1A^2n^3a^4r^5k^6i: I am going in for the capture!
+(^1A^2n^3a^4r^5k^6i^7): I am going in for the capture!
+sayteam: Klesk: I am going to capture the enemy flag!
+(Klesk^7): I am going to capture the enemy flag!
+sayteam: Xaero: I am going to get the enemy flag.
+(Xaero^7): I am going to get the enemy flag.
+Kill: 7 4 1: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_SHOTGUN
+Item: 5 item_health_mega
+sayteam: Phobos: I'm going in for the capture!
+(Phobos^7): I'm going in for the capture!
+Item: 2 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Kill: 2 1 6: Biker killed Biker by MOD_ROCKET
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+sayteam: ^1A^2n^3a^4r^5k^6i: Is there a team leader
+(^1A^2n^3a^4r^5k^6i^7): Is there a team leader
+Item: 6 weapon_rocketlauncher
+Item: 2 weapon_rocketlauncher
+loaded cached skill 4.000000 from bots/default_c.c
+loaded skill 4 from bots/cadavre_c.c
+loaded bots/cadavre_i.c
+loaded bots/cadavre_w.c
+loaded cadavre from bots/cadavre_t.c
+ClientConnect: 8
+ClientUserinfoChanged: 8 n\Cadavre\t\2\model\biker/cadavre\hmodel\biker/cadavre\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Cadavre^7 connected\n"
+ClientBegin: 8
+loaded cached skill 4.000000 from bots/default_c.c
+loaded cached skill 4.000000 from bots/cadavre_c.c
+ClientConnect: 9
+ClientUserinfoChanged: 9 n\Cadavre\t\1\model\biker/cadavre\hmodel\biker/cadavre\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Cadavre^7 connected\n"
+ClientBegin: 9
+ClientUserinfoChanged: 8 n\Cadavre\t\2\model\biker/cadavre\hmodel\biker/cadavre\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+broadcast: print "Cadavre^7 entered the game\n"
+ClientBegin: 8
+ClientUserinfoChanged: 9 n\Cadavre\t\1\model\biker/cadavre\hmodel\biker/cadavre\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+broadcast: print "Cadavre^7 entered the game\n"
+ClientBegin: 9
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+sayteam: Bitterman: who's the team leader
+(Bitterman^7): who's the team leader
+Item: 1 item_armor_combat
+sayteam: Biker: I'm the team leader
+(Biker^7): I'm the team leader
+Kill: 1022 7 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Kill: 6 3 1: Bitterman killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+sayteam: Xaero: I'm the team leader
+(Xaero^7): I'm the team leader
+Item: 6 weapon_rocketlauncher
+Kill: 1 0 1: Biker killed Xaero by MOD_SHOTGUN
+Item: 1 weapon_rocketlauncher
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+tell: Xaero to Biker: Lard Belly defend the base
+tell: Xaero to Cadavre: Maggot Bait guard the base
+tell: Xaero to Bitterman: Bitter Guy guard the base
+tell: Xaero to Klesk: Bug get the enemy flag
+tell: Biker to Phobos: Phobos defend the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Anarki guard the base
+tell: Biker to Cadavre: Cadavre guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Mumbles get the enemy flag
+Kill: 5 8 3: Phobos killed Cadavre by MOD_MACHINEGUN
+Item: 6 item_health_large
+Item: 4 weapon_rocketlauncher
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+sayteam: Biker: I'm going in for the capture!
+(Biker^7): I'm going in for the capture!
+sayteam: Klesk: I'm going to get the enemy flag.
+(Klesk^7): I'm going to get the enemy flag.
+sayteam: Xaero: I'm going in for the capture!
+(Xaero^7): I'm going in for the capture!
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 4 weapon_shotgun
+Item: 6 weapon_rocketlauncher
+Kill: 1022 5 19: <world> killed Phobos by MOD_FALLING
+sayteam: ^1A^2n^3a^4r^5k^6i: I'm going to capture the enemy flag!
+(^1A^2n^3a^4r^5k^6i^7): I'm going to capture the enemy flag!
+Kill: 3 4 1: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_SHOTGUN
+Item: 9 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Kill: 6 1 6: Bitterman killed Biker by MOD_ROCKET
+Kill: 6 0 7: Bitterman killed Xaero by MOD_ROCKET_SPLASH
+Kill: 1 6 6: Biker killed Bitterman by MOD_ROCKET
+Item: 9 weapon_rocketlauncher
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 3 weapon_rocketlauncher
+Kill: 1022 2 22: <world> killed Biker by MOD_TRIGGER_HURT
+Kill: 1022 7 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 9 weapon_rocketlauncher
+Item: 8 weapon_shotgun
+Item: 9 weapon_shotgun
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Item: 0 weapon_rocketlauncher
+Item: 6 item_armor_combat
+Kill: 8 3 1: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Kill: 0 9 6: Xaero killed Cadavre by MOD_ROCKET
+Kill: 9 0 6: Cadavre killed Xaero by MOD_ROCKET
+sayteam: Cadavre: I am going to defend the Blue Flag.
+(Cadavre^7): I am going to defend the Blue Flag.
+Kill: 1022 8 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 4 weapon_rocketlauncher
+Kill: 1022 5 22: <world> killed Phobos by MOD_TRIGGER_HURT
+Item: 7 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 4 weapon_rocketlauncher
+Kill: 3 4 1: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_SHOTGUN
+Kill: 4 9 7: Klesk killed Cadavre by MOD_ROCKET_SPLASH
+Item: 3 weapon_rocketlauncher
+Item: 5 weapon_shotgun
+Item: 8 weapon_rocketlauncher
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 9 item_armor_combat
+Kill: 1022 5 22: <world> killed Phobos by MOD_TRIGGER_HURT
+Item: 2 weapon_rocketlauncher
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Kill: 1022 7 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Kill: 0 1 1: Xaero killed Biker by MOD_SHOTGUN
+sayteam: Biker: Leave guarding the Blue Flag to me.
+(Biker^7): Leave guarding the Blue Flag to me.
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 2 item_health_large
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 2 weapon_rocketlauncher
+Item: 6 item_health_large
+Kill: 1 0 1: Biker killed Xaero by MOD_SHOTGUN
+Item: 4 weapon_rocketlauncher
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 4 item_health_mega
+Kill: 1 2 1: Biker killed Biker by MOD_SHOTGUN
+Item: 6 weapon_rocketlauncher
+Item: 6 item_armor_combat
+Kill: 7 8 1: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_SHOTGUN
+Kill: 8 3 6: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET
+Item: 9 weapon_rocketlauncher
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 4 weapon_railgun
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 9 weapon_rocketlauncher
+Item: 3 weapon_shotgun
+Item: 5 item_health_large
+Item: 4 team_CTF_redflag
+broadcast: print "Klesk^7 got the RED flag!\n"
+Kill: 1022 0 22: <world> killed Xaero by MOD_TRIGGER_HURT
+Item: 3 weapon_rocketlauncher
+Kill: 8 9 1: Cadavre killed Cadavre by MOD_SHOTGUN
+Kill: 4 5 10: Klesk killed Phobos by MOD_RAILGUN
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+tell: Xaero to Cadavre: Zombie Bait guard the base
+tell: Xaero to Biker: Fat-man guard the base
+tell: Xaero to Bitterman: Squidly accompany Klesk
+tell: Biker to Phobos: Phobos guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Cyber-Scarecrow defend the base
+tell: Biker to Cadavre: Cadavre get the flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Freak-boy get the enemy flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Mumbles get the enemy flag
+Kill: 6 1 6: Bitterman killed Biker by MOD_ROCKET
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Kill: 2 3 1: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 2 weapon_rocketlauncher
+sayteam: Bitterman: I am defending the Blue Flag.
+(Bitterman^7): I am defending the Blue Flag.
+Item: 2 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Kill: 7 4 3: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_MACHINEGUN
+broadcast: print "^1A^2n^3a^4r^5k^6i^7 fragged BLUE's flag carrier!\n"
+sayteam: ^1A^2n^3a^4r^5k^6i: I'm going in for the capture!
+(^1A^2n^3a^4r^5k^6i^7): I'm going in for the capture!
+sayteam: ^1A^2n^3a^4r^5k^6i: I am on my way to capture the enemy flag.
+(^1A^2n^3a^4r^5k^6i^7): I am on my way to capture the enemy flag.
+sayteam: Cadavre: I'm going to capture the enemy flag!
+(Cadavre^7): I'm going to capture the enemy flag!
+sayteam: Biker: I am going to get the enemy flag.
+(Biker^7): I am going to get the enemy flag.
+Item: 8 item_health_large
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 1 weapon_railgun
+Item: 9 team_CTF_redflag
+broadcast: print "Cadavre^7 returned the RED flag!\n"
+Kill: 1 2 10: Biker killed Biker by MOD_RAILGUN
+Kill: 1022 0 22: <world> killed Xaero by MOD_TRIGGER_HURT
+Item: 6 weapon_rocketlauncher
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 5 weapon_rocketlauncher
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 0 item_armor_combat
+tell: Xaero to Cadavre: Maggot Bait guard the base
+tell: Xaero to Biker: Biker guard the base
+tell: Xaero to Bitterman: Bitterman get the enemy flag
+tell: Xaero to Klesk: Scum-sucker get the flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Mumbles guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Anarki guard the base
+tell: Biker to Cadavre: Zombie Bait get the enemy flag
+tell: Biker to Phobos: Phobos get the enemy flag
+Kill: 1022 8 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+sayteam: Bitterman: I'm going in for the capture!
+(Bitterman^7): I'm going in for the capture!
+sayteam: Klesk: I am off to grab the enemy flag!
+(Klesk^7): I am off to grab the enemy flag!
+Kill: 1022 3 19: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_FALLING
+sayteam: Cadavre: The enemy flag will be mine!
+(Cadavre^7): The enemy flag will be mine!
+sayteam: Xaero: I am on guard at the Blue Flag!
+(Xaero^7): I am on guard at the Blue Flag!
+sayteam: Phobos: I am going to get the enemy flag.
+(Phobos^7): I am going to get the enemy flag.
+Kill: 1022 5 22: <world> killed Phobos by MOD_TRIGGER_HURT
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 1 weapon_rocketlauncher
+Kill: 2 6 1: Biker killed Bitterman by MOD_SHOTGUN
+Kill: 1022 1 22: <world> killed Biker by MOD_TRIGGER_HURT
+Item: 2 weapon_rocketlauncher
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Item: 3 weapon_shotgun
+Item: 4 team_CTF_redflag
+broadcast: print "Klesk^7 got the RED flag!\n"
+Kill: 2 1 6: Biker killed Biker by MOD_ROCKET
+Kill: 2 2 7: Biker killed Biker by MOD_ROCKET_SPLASH
+Item: 7 weapon_shotgun
+Item: 8 item_health_large
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 0 weapon_rocketlauncher
+Kill: 1022 5 22: <world> killed Phobos by MOD_TRIGGER_HURT
+Kill: 4 9 3: Klesk killed Cadavre by MOD_MACHINEGUN
+Kill: 6 3 1: Bitterman killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+tell: Xaero to Cadavre: Maggot Bait guard the base
+tell: Xaero to Bitterman: Squidly accompany Klesk
+tell: Xaero to Biker: Fat-man follow corpse-gobbler
+tell: Biker to Phobos: Phobos guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Freak-boy get the flag
+tell: Biker to Cadavre: Meat-wagon get the enemy flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Mumbles get the enemy flag
+tell: Biker to Phobos: Phobos get the enemy flag
+Kill: 1022 4 19: <world> killed Klesk by MOD_FALLING
+Item: 6 weapon_shotgun
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 5 weapon_rocketlauncher
+sayteam: Cadavre: I am going to capture the enemy flag!
+(Cadavre^7): I am going to capture the enemy flag!
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 3 item_armor_combat
+sayteam: ^1A^2n^3a^4r^5k^6i: I'm off to grab the enemy flag!
+(^1A^2n^3a^4r^5k^6i^7): I'm off to grab the enemy flag!
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+sayteam: Phobos: I'm off to grab the enemy flag!
+(Phobos^7): I'm off to grab the enemy flag!
+sayteam: ^1A^2n^3a^4r^5k^6i: I am going to capture the enemy flag!
+(^1A^2n^3a^4r^5k^6i^7): I am going to capture the enemy flag!
+Item: 5 weapon_rocketlauncher
+Kill: 8 8 7: Cadavre killed Cadavre by MOD_ROCKET_SPLASH
+Kill: 7 6 1: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_SHOTGUN
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Kill: 1 7 1: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 1 weapon_shotgun
+Item: 0 weapon_shotgun
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Kill: 1 0 1: Biker killed Xaero by MOD_SHOTGUN
+Item: 1 weapon_rocketlauncher
+Item: 2 weapon_rocketlauncher
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Kill: 0 5 6: Xaero killed Phobos by MOD_ROCKET
+Item: 2 weapon_rocketlauncher
+Kill: 1 4 6: Biker killed Klesk by MOD_ROCKET
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Kill: 1022 7 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 2 weapon_rocketlauncher
+Kill: 5 2 1: Phobos killed Biker by MOD_SHOTGUN
+Kill: 8 5 1: Cadavre killed Phobos by MOD_SHOTGUN
+Item: 8 weapon_rocketlauncher
+Item: 8 weapon_shotgun
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Kill: 8 9 7: Cadavre killed Cadavre by MOD_ROCKET_SPLASH
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 5 team_CTF_redflag
+broadcast: print "Phobos^7 returned the RED flag!\n"
+Item: 8 weapon_rocketlauncher
+Kill: 5 6 1: Phobos killed Bitterman by MOD_SHOTGUN
+Kill: 8 3 7: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET_SPLASH
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Kill: 7 0 1: ^1A^2n^3a^4r^5k^6i killed Xaero by MOD_SHOTGUN
+sayteam: Biker: Leave guarding the Red Flag to me.
+(Biker^7): Leave guarding the Red Flag to me.
+Item: 8 item_health_large
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+tell: Bitterman to Xaero: Just call me Tonto, klesk.
+Item: 5 weapon_shotgun
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Kill: 1022 1 22: <world> killed Biker by MOD_TRIGGER_HURT
+Item: 2 weapon_rocketlauncher
+tell: Xaero to Biker: Curly guard the base
+tell: Xaero to Klesk: Klesk defend the base
+tell: Xaero to Cadavre: Zombie Bait guard the base
+tell: Xaero to Bitterman: Cowboy get the flag
+tell: Biker to Cadavre: Meat-wagon defend the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Anarki guard the base
+tell: Biker to Phobos: Colonel Feeble get the flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Anarki get the enemy flag
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 5 weapon_shotgun
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Kill: 2 5 6: Biker killed Phobos by MOD_ROCKET
+Kill: 7 2 1: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_SHOTGUN
+sayteam: Bitterman: I am going to get the enemy flag.
+(Bitterman^7): I am going to get the enemy flag.
+Item: 1 weapon_shotgun
+sayteam: Xaero: The enemy flag will be mine!
+(Xaero^7): The enemy flag will be mine!
+Item: 4 weapon_rocketlauncher
+Item: 7 weapon_shotgun
+sayteam: ^1A^2n^3a^4r^5k^6i: I'm going in for the capture!
+(^1A^2n^3a^4r^5k^6i^7): I'm going in for the capture!
+Kill: 3 4 1: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_SHOTGUN
+Kill: 1022 8 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 7 weapon_rocketlauncher
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 4 item_armor_combat
+Item: 9 weapon_rocketlauncher
+Item: 6 weapon_rocketlauncher
+Kill: 2 7 1: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Kill: 3 6 1: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_SHOTGUN
+Item: 3 weapon_shotgun
+Kill: 5 8 1: Phobos killed Cadavre by MOD_SHOTGUN
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 7 item_armor_combat
+Item: 0 weapon_rocketlauncher
+Kill: 3 0 1: ^1A^2n^3a^4r^5k^6i killed Xaero by MOD_SHOTGUN
+Item: 3 weapon_shotgun
+sayteam: Cadavre: I'm going to defend the Red Flag.
+(Cadavre^7): I'm going to defend the Red Flag.
+Kill: 1022 9 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 3 item_health_mega
+Item: 3 weapon_rocketlauncher
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 2 weapon_rocketlauncher
+Item: 2 item_health_large
+Item: 6 weapon_rocketlauncher
+Kill: 1 2 1: Biker killed Biker by MOD_SHOTGUN
+Item: 0 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Kill: 1022 1 22: <world> killed Biker by MOD_TRIGGER_HURT
+Item: 4 weapon_rocketlauncher
+Kill: 0 9 6: Xaero killed Cadavre by MOD_ROCKET
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 0 weapon_shotgun
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Kill: 6 7 1: Bitterman killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 6 weapon_rocketlauncher
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Kill: 8 4 6: Cadavre killed Klesk by MOD_ROCKET
+Item: 8 weapon_rocketlauncher
+Kill: 7 0 1: ^1A^2n^3a^4r^5k^6i killed Xaero by MOD_SHOTGUN
+Item: 2 weapon_rocketlauncher
+Item: 6 weapon_rocketlauncher
+Kill: 7 9 1: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_SHOTGUN
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+sayteam: ^1A^2n^3a^4r^5k^6i: I'm defending the Red Flag.
+(^1A^2n^3a^4r^5k^6i^7): I'm defending the Red Flag.
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Kill: 8 8 7: Cadavre killed Cadavre by MOD_ROCKET_SPLASH
+Item: 2 weapon_rocketlauncher
+Kill: 3 2 1: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_SHOTGUN
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Kill: 4 7 1: Klesk killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 4 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Kill: 0 3 1: Xaero killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Item: 2 item_armor_combat
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+sayteam: Klesk: I'm going to defend the Blue Flag.
+(Klesk^7): I'm going to defend the Blue Flag.
+Item: 0 weapon_railgun
+Item: 8 weapon_rocketlauncher
+Kill: 4 5 1: Klesk killed Phobos by MOD_SHOTGUN
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 0 team_CTF_redflag
+broadcast: print "Xaero^7 got the RED flag!\n"
+Item: 6 weapon_rocketlauncher
+Kill: 0 7 10: Xaero killed ^1A^2n^3a^4r^5k^6i by MOD_RAILGUN
+Item: 8 item_health_large
+Kill: 6 9 1: Bitterman killed Cadavre by MOD_SHOTGUN
+Kill: 3 6 1: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_SHOTGUN
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 5 weapon_rocketlauncher
+tell: Xaero to Biker: Fat-man defend the base
+tell: Xaero to Klesk: Klesk guard the base
+tell: Xaero to Bitterman: Bitterman guard the base
+tell: Xaero to Cadavre: Zombie Bait accompany me
+tell: Biker to Phobos: Phobos defend the base
+tell: Biker to Cadavre: Laughing-boy get the flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Mumbles get the enemy flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Mumbles get the enemy flag
+tell: Biker to Phobos: Phobos get the enemy flag
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Kill: 1022 5 19: <world> killed Phobos by MOD_FALLING
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 0 item_health_large
+Kill: 2 3 1: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 8 item_health_large
+sayteam: Phobos: I'm going in for the capture!
+(Phobos^7): I'm going in for the capture!
+sayteam: Cadavre: I'm on my way to capture the enemy flag.
+(Cadavre^7): I'm on my way to capture the enemy flag.
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Kill: 1022 9 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 1 weapon_shotgun
+Item: 1 weapon_shotgun
+sayteam: ^1A^2n^3a^4r^5k^6i: I'm going to capture the enemy flag!
+(^1A^2n^3a^4r^5k^6i^7): I'm going to capture the enemy flag!
+Kill: 0 1 10: Xaero killed Biker by MOD_RAILGUN
+sayteam: Bitterman: I'm going to defend the Blue Flag.
+(Bitterman^7): I'm going to defend the Blue Flag.
+tell: Cadavre to Xaero: Following you is now my mission in life Honored Master.
+Kill: 3 0 1: ^1A^2n^3a^4r^5k^6i killed Xaero by MOD_SHOTGUN
+broadcast: print "^1A^2n^3a^4r^5k^6i^7 fragged BLUE's flag carrier!\n"
+sayteam: ^1A^2n^3a^4r^5k^6i: I'm on my way to capture the enemy flag.
+(^1A^2n^3a^4r^5k^6i^7): I'm on my way to capture the enemy flag.
+Item: 4 weapon_rocketlauncher
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 5 weapon_shotgun
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Kill: 3 2 1: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_SHOTGUN
+Item: 5 weapon_shotgun
+Item: 7 weapon_railgun
+Item: 5 team_CTF_redflag
+broadcast: print "Phobos^7 returned the RED flag!\n"
+Item: 8 weapon_rocketlauncher
+Kill: 1 4 1: Biker killed Klesk by MOD_SHOTGUN
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 7 weapon_rocketlauncher
+Item: 7 item_health_large
+Kill: 9 8 1: Cadavre killed Cadavre by MOD_SHOTGUN
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 5 weapon_rocketlauncher
+tell: Xaero to Bitterman: Squid head guard the base
+tell: Xaero to Klesk: corpse-gobbler guard the base
+tell: Xaero to Cadavre: Laughing-boy get the flag
+tell: Xaero to Biker: Biker get the enemy flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Anarki guard the base
+tell: Biker to Phobos: Colonel guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Anarki get the enemy flag
+tell: Biker to Cadavre: Meat-wagon get the enemy flag
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Kill: 1022 5 22: <world> killed Phobos by MOD_TRIGGER_HURT
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Item: 7 weapon_rocketlauncher
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+sayteam: ^1A^2n^3a^4r^5k^6i: The enemy flag will be mine!
+(^1A^2n^3a^4r^5k^6i^7): The enemy flag will be mine!
+sayteam: Cadavre: I'm going to get the enemy flag.
+(Cadavre^7): I'm going to get the enemy flag.
+sayteam: Biker: The enemy flag will be mine!
+(Biker^7): The enemy flag will be mine!
+sayteam: Cadavre: I am going to capture the enemy flag!
+(Cadavre^7): I am going to capture the enemy flag!
+Client 0 connecting with 0 challenge ping
+ClientConnect: 10
+ClientUserinfoChanged: 10 n\]>ar]< ]_0r]>\t\3\model\doom/phobos\hmodel\doom/phobos\g_redteam\\g_blueteam\\c1\5\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+broadcast: print "]>ar]< ]_0r]>^7 connected\n"
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 7 weapon_rocketlauncher
+Kill: 8 7 1: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 7 item_armor_combat
+ClientUserinfoChanged: 10 n\]>ar]< ]_0r]>\t\3\model\doom/phobos\hmodel\doom/phobos\g_redteam\\g_blueteam\\c1\5\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+ClientBegin: 10
+Item: 2 item_health_mega
+Item: 5 weapon_rocketlauncher
+Kill: 1022 9 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Kill: 8 5 1: Cadavre killed Phobos by MOD_SHOTGUN
+Item: 8 weapon_rocketlauncher
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Kill: 1022 0 22: <world> killed Xaero by MOD_TRIGGER_HURT
+Item: 8 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 0 item_armor_combat
+Kill: 1022 2 22: <world> killed Biker by MOD_TRIGGER_HURT
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Kill: 5 8 1: Phobos killed Cadavre by MOD_SHOTGUN
+sayteam: Biker: I'm going to defend the Red Flag.
+(Biker^7): I'm going to defend the Red Flag.
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+sayteam: ^1A^2n^3a^4r^5k^6i: I'm on guard at the Red Flag!
+(^1A^2n^3a^4r^5k^6i^7): I'm on guard at the Red Flag!
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Item: 7 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 1 weapon_rocketlauncher
+Kill: 7 4 6: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_ROCKET
+Kill: 2 1 1: Biker killed Biker by MOD_SHOTGUN
+Kill: 1022 9 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Kill: 0 8 1: Xaero killed Cadavre by MOD_SHOTGUN
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Kill: 1022 5 22: <world> killed Phobos by MOD_TRIGGER_HURT
+Item: 0 weapon_rocketlauncher
+Item: 6 weapon_rocketlauncher
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Kill: 9 0 1: Cadavre killed Xaero by MOD_SHOTGUN
+Item: 6 weapon_rocketlauncher
+Kill: 6 7 1: Bitterman killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 3 weapon_rocketlauncher
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Kill: 6 9 1: Bitterman killed Cadavre by MOD_SHOTGUN
+Kill: 3 2 6: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_ROCKET
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 6 weapon_rocketlauncher
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Item: 6 item_health_large
+Item: 1 weapon_shotgun
+Kill: 1 8 1: Biker killed Cadavre by MOD_SHOTGUN
+Item: 5 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Kill: 3 0 7: ^1A^2n^3a^4r^5k^6i killed Xaero by MOD_ROCKET_SPLASH
+Item: 7 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Kill: 3 6 7: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_ROCKET_SPLASH
+Kill: 1022 9 19: <world> killed Cadavre by MOD_FALLING
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 3 weapon_rocketlauncher
+Item: 1 item_health_large
+Kill: 8 7 1: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 3 weapon_rocketlauncher
+Kill: 4 3 1: Klesk killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 2 item_health_large
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Kill: 2 7 1: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 1 item_health_large
+Item: 2 weapon_shotgun
+Kill: 9 4 1: Cadavre killed Klesk by MOD_SHOTGUN
+Item: 6 weapon_rocketlauncher
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 7 item_armor_combat
+sayteam: Klesk: I am on guard at the Blue Flag!
+(Klesk^7): I am on guard at the Blue Flag!
+Kill: 9 2 1: Cadavre killed Biker by MOD_SHOTGUN
+Item: 8 weapon_rocketlauncher
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Kill: 8 9 6: Cadavre killed Cadavre by MOD_ROCKET
+Item: 3 weapon_shotgun
+Kill: 1022 0 22: <world> killed Xaero by MOD_TRIGGER_HURT
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 4 weapon_rocketlauncher
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+sayteam: Xaero: Leave guarding the Blue Flag to me.
+(Xaero^7): Leave guarding the Blue Flag to me.
+Kill: 7 8 1: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_SHOTGUN
+Item: 4 weapon_rocketlauncher
+Kill: 9 2 1: Cadavre killed Biker by MOD_SHOTGUN
+Item: 9 weapon_shotgun
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 3 item_armor_combat
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 3 weapon_rocketlauncher
+Item: 9 weapon_rocketlauncher
+Item: 4 weapon_rocketlauncher
+Kill: 1 4 3: Biker killed Klesk by MOD_MACHINEGUN
+Kill: 7 6 1: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_SHOTGUN
+Item: 7 item_health_mega
+Item: 0 item_armor_combat
+Item: 1 weapon_rocketlauncher
+Item: 3 weapon_rocketlauncher
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Kill: 2 5 1: Biker killed Phobos by MOD_SHOTGUN
+Kill: 9 8 6: Cadavre killed Cadavre by MOD_ROCKET
+Item: 6 weapon_rocketlauncher
+Item: 7 team_CTF_blueflag
+broadcast: print "^1A^2n^3a^4r^5k^6i^7 got the BLUE flag!\n"
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Kill: 6 1 1: Bitterman killed Biker by MOD_SHOTGUN
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+tell: Xaero to Biker: Fat-man defend the base
+tell: Xaero to Klesk: Scum-sucker guard the base
+tell: Xaero to Bitterman: Cowboy get the flag
+tell: Xaero to Cadavre: Zombie Bait get the enemy flag
+tell: Xaero to Klesk: Klesk get the enemy flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Mumbles guard the base
+tell: Biker to Phobos: Colonel follow Anarki
+tell: Biker to Cadavre: Laughing-boy accompany Mumbles
+Item: 5 weapon_rocketlauncher
+Kill: 9 2 1: Cadavre killed Biker by MOD_SHOTGUN
+Kill: 3 6 1: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_SHOTGUN
+Kill: 8 7 1: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+broadcast: print "Cadavre^7 fragged RED's flag carrier!\n"
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 3 weapon_shotgun
+Item: 0 weapon_rocketlauncher
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+sayteam: Xaero: The enemy flag will be mine!
+(Xaero^7): The enemy flag will be mine!
+sayteam: Bitterman: I am on my way to capture the enemy flag.
+(Bitterman^7): I am on my way to capture the enemy flag.
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 4 team_CTF_blueflag
+broadcast: print "Klesk^7 returned the BLUE flag!\n"
+sayteam: Klesk: I am going in for the capture!
+(Klesk^7): I am going in for the capture!
+Item: 8 item_health_large
+sayteam: Cadavre: I am on my way to capture the enemy flag.
+(Cadavre^7): I am on my way to capture the enemy flag.
+Kill: 5 0 6: Phobos killed Xaero by MOD_ROCKET
+Item: 1 item_armor_combat
+Item: 5 item_health_large
+Item: 8 weapon_rocketlauncher
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+tell: Biker to Phobos: Phobos guard the base
+tell: Biker to Cadavre: Maggot Bait guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Anarki get the enemy flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Anarki get the flag
+tell: Xaero to Klesk: Bug guard the base
+tell: Xaero to Biker: Fat-man guard the base
+tell: Xaero to Bitterman: Bitter Guy guard the base
+tell: Xaero to Cadavre: Maggot Bait get the enemy flag
+Kill: 8 3 6: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET
+Item: 9 weapon_shotgun
+Item: 0 weapon_rocketlauncher
+Kill: 7 8 1: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_SHOTGUN
+Kill: 8 9 7: Cadavre killed Cadavre by MOD_ROCKET_SPLASH
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+sayteam: ^1A^2n^3a^4r^5k^6i: I am going in for the capture!
+(^1A^2n^3a^4r^5k^6i^7): I am going in for the capture!
+Item: 7 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+sayteam: ^1A^2n^3a^4r^5k^6i: I am going to capture the enemy flag!
+(^1A^2n^3a^4r^5k^6i^7): I am going to capture the enemy flag!
+Item: 7 weapon_shotgun
+sayteam: Xaero: I am going to get the enemy flag.
+(Xaero^7): I am going to get the enemy flag.
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+sayteam: Cadavre: I'm going in for the capture!
+(Cadavre^7): I'm going in for the capture!
+Item: 6 weapon_shotgun
+Kill: 1 0 1: Biker killed Xaero by MOD_SHOTGUN
+Item: 5 weapon_rocketlauncher
+Item: 6 item_health_large
+Item: 2 weapon_rocketlauncher
+Kill: 5 6 6: Phobos killed Bitterman by MOD_ROCKET
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 2 weapon_shotgun
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Kill: 7 2 7: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_ROCKET_SPLASH
+Kill: 4 3 1: Klesk killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 9 weapon_rocketlauncher
+Kill: 7 4 7: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_ROCKET_SPLASH
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 0 weapon_rocketlauncher
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 1 item_armor_combat
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 1 weapon_rocketlauncher
+Item: 4 item_armor_combat
+Kill: 3 0 1: ^1A^2n^3a^4r^5k^6i killed Xaero by MOD_SHOTGUN
+Item: 3 weapon_rocketlauncher
+Item: 8 weapon_rocketlauncher
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 1 weapon_rocketlauncher
+Item: 3 weapon_rocketlauncher
+Item: 8 weapon_rocketlauncher
+Item: 1 weapon_rocketlauncher
+Item: 9 weapon_shotgun
+Item: 2 weapon_rocketlauncher
+Item: 1 weapon_rocketlauncher
+Kill: 2 7 7: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET_SPLASH
+Kill: 5 0 1: Phobos killed Xaero by MOD_SHOTGUN
+Kill: 2 9 7: Biker killed Cadavre by MOD_ROCKET_SPLASH
+Item: 1 weapon_rocketlauncher
+Kill: 3 6 7: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_ROCKET_SPLASH
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Kill: 5 8 1: Phobos killed Cadavre by MOD_SHOTGUN
+sayteam: Phobos: Leave guarding the Red Flag to me.
+(Phobos^7): Leave guarding the Red Flag to me.
+Item: 4 weapon_rocketlauncher
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 5 weapon_shotgun
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 9 weapon_rocketlauncher
+Kill: 0 3 1: Xaero killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Kill: 1 9 7: Biker killed Cadavre by MOD_ROCKET_SPLASH
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 5 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 4 weapon_shotgun
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 2 item_health_large
+Item: 5 weapon_shotgun
+Kill: 7 4 1: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_SHOTGUN
+Kill: 2 5 1: Biker killed Phobos by MOD_SHOTGUN
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 3 weapon_rocketlauncher
+Item: 1 item_health_mega
+Item: 7 weapon_rocketlauncher
+Item: 6 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 5 item_armor_combat
+Kill: 3 2 7: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_ROCKET_SPLASH
+Item: 0 weapon_rocketlauncher
+Kill: 8 7 1: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 8 weapon_rocketlauncher
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Kill: 1022 9 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 8 weapon_rocketlauncher
+Item: 0 weapon_railgun
+Kill: 7 6 1: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_SHOTGUN
+Item: 7 weapon_shotgun
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Kill: 5 8 1: Phobos killed Cadavre by MOD_SHOTGUN
+sayteam: Biker: I'll guard the Red Flag!
+(Biker^7): I'll guard the Red Flag!
+Item: 0 team_CTF_redflag
+broadcast: print "Xaero^7 got the RED flag!\n"
+Kill: 1022 1 22: <world> killed Biker by MOD_TRIGGER_HURT
+Item: 6 item_armor_combat
+Kill: 0 3 10: Xaero killed ^1A^2n^3a^4r^5k^6i by MOD_RAILGUN
+Kill: 1022 7 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+ClientUserinfoChanged: 0 n\Xaero\t\2\model\xaero\hmodel\xaero\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+ClientUserinfoChanged: 10 n\]>ar]< ]_0r]>\t\2\model\doom/phobos\hmodel\doom/phobos\g_redteam\\g_blueteam\\c1\5\c2\5\hc\100\w\0\l\0\tt\0\tl\1
+ClientUserinfoChanged: 10 n\]>ar]< ]_0r]>\t\2\model\doom/phobos\hmodel\doom/phobos\g_redteam\\g_blueteam\\c1\5\c2\5\hc\100\w\0\l\0\tt\0\tl\1
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+broadcast: print "]>ar]< ]_0r]>^7 entered the game\n"
+ClientBegin: 10
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 4 weapon_rocketlauncher
+Kill: 8 5 1: Cadavre killed Phobos by MOD_SHOTGUN
+tell: Biker to Cadavre: Cadavre guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Cyber-Scarecrow defend the base
+tell: Biker to Phobos: Colonel Feeble get the flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Mumbles get the enemy flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Doood get the enemy flag
+Kill: 8 9 1: Cadavre killed Cadavre by MOD_SHOTGUN
+Item: 1 weapon_rocketlauncher
+tell: Xaero to Biker: Biker guard the base
+tell: Xaero to Klesk: Scum-sucker defend the base
+tell: Xaero to ]>ar]< ]_0r]>: ]>ar]< ]_0r]> guard the base
+tell: Xaero to Cadavre: Maggot Bait guard the base
+tell: Xaero to Bitterman: Fish-face follow me
+Item: 0 item_health_large
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+sayteam: ^1A^2n^3a^4r^5k^6i: I am going to get the enemy flag.
+(^1A^2n^3a^4r^5k^6i^7): I am going to get the enemy flag.
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Kill: 3 0 1: ^1A^2n^3a^4r^5k^6i killed Xaero by MOD_SHOTGUN
+broadcast: print "^1A^2n^3a^4r^5k^6i^7 fragged BLUE's flag carrier!\n"
+sayteam: Biker: I am going to get the enemy flag.
+(Biker^7): I am going to get the enemy flag.
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+sayteam: ^1A^2n^3a^4r^5k^6i: I am off to grab the enemy flag!
+(^1A^2n^3a^4r^5k^6i^7): I am off to grab the enemy flag!
+Item: 6 weapon_shotgun
+Item: 0 ammo_shells
+Item: 0 weapon_shotgun
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 6 weapon_rocketlauncher
+Item: 9 team_CTF_redflag
+broadcast: print "Cadavre^7 returned the RED flag!\n"
+Kill: 2 7 3: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_MACHINEGUN
+Item: 2 weapon_rocketlauncher
+broadcast: print "Xaero^7 was kicked\n"
+ClientDisconnect: 0
+Item: 4 weapon_shotgun
+Item: 1 item_health_large
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 5 weapon_railgun
+Item: 1 weapon_shotgun
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Freak-boy guard the base
+tell: Biker to Phobos: Phobos guard the base
+tell: Biker to Cadavre: Zombie Bait guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Mumbles get the enemy flag
+Item: 2 weapon_railgun
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 9 item_health_large
+Item: 1 weapon_rocketlauncher
+Kill: 5 6 10: Phobos killed Bitterman by MOD_RAILGUN
+Item: 7 weapon_shotgun
+sayteam: Biker: I'm on my way to capture the enemy flag.
+(Biker^7): I'm on my way to capture the enemy flag.
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+sayteam: ^1A^2n^3a^4r^5k^6i: I am going to capture the enemy flag!
+(^1A^2n^3a^4r^5k^6i^7): I am going to capture the enemy flag!
+Item: 3 item_armor_combat
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Kill: 1022 1 22: <world> killed Biker by MOD_TRIGGER_HURT
+Item: 2 weapon_railgun
+Kill: 8 5 3: Cadavre killed Phobos by MOD_MACHINEGUN
+Item: 7 weapon_railgun
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Kill: 3 9 1: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_SHOTGUN
+Kill: 3 8 1: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_SHOTGUN
+sayteam: Phobos: Leave guarding the Red Flag to me.
+(Phobos^7): Leave guarding the Red Flag to me.
+Item: 2 team_CTF_redflag
+broadcast: print "Biker^7 got the RED flag!\n"
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 2 item_health_large
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+sayteam: Cadavre: I'm on guard at the Blue Flag!
+(Cadavre^7): I'm on guard at the Blue Flag!
+Item: 4 weapon_rocketlauncher
+Kill: 1022 7 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Kill: 1 2 1: Biker killed Biker by MOD_SHOTGUN
+broadcast: print "Biker^7 fragged BLUE's flag carrier!\n"
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Cyber-Scarecrow guard the base
+tell: Biker to Cadavre: Laughing-boy get the enemy flag
+tell: Biker to Phobos: Phobos get the flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Cyber Surfer get the enemy flag
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+sayteam: Biker: I am going to capture the enemy flag!
+(Biker^7): I am going to capture the enemy flag!
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+sayteam: ^1A^2n^3a^4r^5k^6i: I am on my way to capture the enemy flag.
+(^1A^2n^3a^4r^5k^6i^7): I am on my way to capture the enemy flag.
+Kill: 5 4 1: Phobos killed Klesk by MOD_SHOTGUN
+Item: 7 team_CTF_redflag
+broadcast: print "^1A^2n^3a^4r^5k^6i^7 returned the RED flag!\n"
+Item: 6 weapon_rocketlauncher
+Item: 7 weapon_railgun
+sayteam: Phobos: The enemy flag will be mine!
+(Phobos^7): The enemy flag will be mine!
+sayteam: Cadavre: The enemy flag will be mine!
+(Cadavre^7): The enemy flag will be mine!
+Kill: 9 1 1: Cadavre killed Biker by MOD_SHOTGUN
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Kill: 1022 7 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Kill: 9 6 1: Cadavre killed Bitterman by MOD_SHOTGUN
+Item: 8 weapon_rocketlauncher
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Kill: 5 8 1: Phobos killed Cadavre by MOD_SHOTGUN
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 2 weapon_rocketlauncher
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Freak-boy guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Cyber-Scarecrow guard the base
+tell: Biker to Cadavre: Cadavre get the enemy flag
+tell: Biker to Phobos: Phobos get the enemy flag
+Item: 4 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Kill: 1022 9 19: <world> killed Cadavre by MOD_FALLING
+Kill: 1022 2 22: <world> killed Biker by MOD_TRIGGER_HURT
+sayteam: Phobos: I'm on my way to capture the enemy flag.
+(Phobos^7): I'm on my way to capture the enemy flag.
+Kill: 6 5 1: Bitterman killed Phobos by MOD_SHOTGUN
+Kill: 3 4 3: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_MACHINEGUN
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+sayteam: Cadavre: I am going to capture the enemy flag!
+(Cadavre^7): I am going to capture the enemy flag!
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 1 weapon_rocketlauncher
+Item: 6 weapon_shotgun
+Item: 4 item_armor_combat
+Item: 1 weapon_rocketlauncher
+Kill: 8 1 1: Cadavre killed Biker by MOD_SHOTGUN
+Item: 8 weapon_rocketlauncher
+Kill: 5 6 1: Phobos killed Bitterman by MOD_SHOTGUN
+Item: 5 weapon_shotgun
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Kill: 1022 8 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 5 weapon_rocketlauncher
+Kill: 2 5 1: Biker killed Phobos by MOD_SHOTGUN
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 2 weapon_rocketlauncher
+Item: 2 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Kill: 5 2 1: Phobos killed Biker by MOD_SHOTGUN
+Item: 5 weapon_rocketlauncher
+Item: 3 item_health_large
+Item: 5 weapon_rocketlauncher
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Kill: 1022 5 19: <world> killed Phobos by MOD_FALLING
+Item: 8 item_health_large
+Item: 4 weapon_rocketlauncher
+Item: 1 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Kill: 7 8 3: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_MACHINEGUN
+Item: 4 weapon_shotgun
+Item: 6 weapon_rocketlauncher
+Item: 1 item_health_large
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Kill: 4 7 6: Klesk killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET
+Kill: 2 1 1: Biker killed Biker by MOD_SHOTGUN
+Item: 2 weapon_rocketlauncher
+Item: 2 weapon_rocketlauncher
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Kill: 5 4 1: Phobos killed Klesk by MOD_SHOTGUN
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Kill: 4 9 6: Klesk killed Cadavre by MOD_ROCKET
+Kill: 4 5 7: Klesk killed Phobos by MOD_ROCKET_SPLASH
+Item: 1 item_armor_combat
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Kill: 3 2 1: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_SHOTGUN
+Item: 3 weapon_rocketlauncher
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 3 weapon_rocketlauncher
+Item: 8 weapon_shotgun
+Item: 7 weapon_rocketlauncher
+Item: 10 item_health_mega
+Kill: 9 8 1: Cadavre killed Cadavre by MOD_SHOTGUN
+Kill: 6 3 1: Bitterman killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Item: 7 weapon_shotgun
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 7 weapon_rocketlauncher
+Item: 8 weapon_rocketlauncher
+Kill: 3 6 1: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_SHOTGUN
+Item: 3 weapon_shotgun
+Item: 10 weapon_railgun
+Item: 1 weapon_rocketlauncher
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Kill: 5 8 1: Phobos killed Cadavre by MOD_SHOTGUN
+Item: 5 weapon_rocketlauncher
+Item: 4 item_armor_combat
+Kill: 6 7 1: Bitterman killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 10 weapon_railgun
+Item: 1 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Kill: 8 3 1: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Kill: 1022 2 19: <world> killed Biker by MOD_FALLING
+sayteam: Biker: I am on guard at the Red Flag!
+(Biker^7): I am on guard at the Red Flag!
+Item: 10 weapon_railgun
+Item: 5 weapon_railgun
+Item: 6 weapon_rocketlauncher
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 10 weapon_railgun
+Item: 6 weapon_shotgun
+Kill: 10 5 10: ]>ar]< ]_0r]> killed Phobos by MOD_RAILGUN
+Kill: 8 6 1: Cadavre killed Bitterman by MOD_SHOTGUN
+Item: 10 weapon_railgun
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 4 weapon_shotgun
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 10 weapon_railgun
+Item: 7 weapon_rocketlauncher
+Item: 1 item_health_large
+Item: 8 item_armor_combat
+Item: 8 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Kill: 6 7 1: Bitterman killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 10 weapon_railgun
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+sayteam: ^1A^2n^3a^4r^5k^6i: I'll guard the Red Flag!
+(^1A^2n^3a^4r^5k^6i^7): I'll guard the Red Flag!
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 7 item_armor_combat
+Item: 8 weapon_rocketlauncher
+Kill: 8 1 6: Cadavre killed Biker by MOD_ROCKET
+Kill: 3 2 1: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_SHOTGUN
+Item: 3 weapon_shotgun
+Kill: 9 4 3: Cadavre killed Klesk by MOD_MACHINEGUN
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Item: 3 weapon_shotgun
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 9 item_health_large
+Item: 3 item_health_large
+Item: 5 item_health_large
+Kill: 1022 7 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 3 weapon_rocketlauncher
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 8 weapon_railgun
+Kill: 1 2 1: Biker killed Biker by MOD_SHOTGUN
+Item: 3 weapon_shotgun
+Kill: 4 3 1: Klesk killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 1 weapon_rocketlauncher
+Item: 8 weapon_rocketlauncher
+Kill: 4 1 1: Klesk killed Biker by MOD_SHOTGUN
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+sayteam: Biker: Leave defending the Blue Flag to me.
+(Biker^7): Leave defending the Blue Flag to me.
+Kill: 1022 5 19: <world> killed Phobos by MOD_FALLING
+Item: 7 weapon_rocketlauncher
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Kill: 9 6 3: Cadavre killed Bitterman by MOD_MACHINEGUN
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 8 item_health_large
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 7 item_health_large
+Item: 2 weapon_rocketlauncher
+Item: 5 weapon_shotgun
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Kill: 4 9 1: Klesk killed Cadavre by MOD_SHOTGUN
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Kill: 5 2 1: Phobos killed Biker by MOD_SHOTGUN
+Item: 6 weapon_rocketlauncher
+Kill: 7 10 6: ^1A^2n^3a^4r^5k^6i killed ]>ar]< ]_0r]> by MOD_ROCKET
+Item: 3 weapon_rocketlauncher
+Item: 3 item_armor_combat
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 4 weapon_rocketlauncher
+Item: 5 weapon_rocketlauncher
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 1 item_health_mega
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Item: 4 item_armor_combat
+Kill: 1022 7 19: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_FALLING
+Item: 1 weapon_railgun
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 1 weapon_railgun
+Kill: 8 9 6: Cadavre killed Cadavre by MOD_ROCKET
+Item: 2 weapon_rocketlauncher
+Item: 2 item_armor_combat
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 7 weapon_shotgun
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 9 item_armor_combat
+Kill: 7 3 1: ^1A^2n^3a^4r^5k^6i killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 1 weapon_railgun
+Kill: 7 8 1: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_SHOTGUN
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 3 weapon_shotgun
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Kill: 8 5 1: Cadavre killed Phobos by MOD_SHOTGUN
+Kill: 1022 10 22: <world> killed ]>ar]< ]_0r]> by MOD_TRIGGER_HURT
+Item: 3 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Kill: 1 8 10: Biker killed Cadavre by MOD_RAILGUN
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Item: 9 weapon_shotgun
+Kill: 7 2 1: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_SHOTGUN
+Item: 6 weapon_rocketlauncher
+Item: 3 weapon_shotgun
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Kill: 5 6 1: Phobos killed Bitterman by MOD_SHOTGUN
+Item: 10 item_health_large
+Item: 1 weapon_shotgun
+Item: 9 item_health_large
+Item: 7 item_health_large
+Item: 4 weapon_shotgun
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 9 weapon_rocketlauncher
+Kill: 3 4 6: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_ROCKET
+Kill: 2 9 1: Biker killed Cadavre by MOD_SHOTGUN
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 10 weapon_rocketlauncher
+Kill: 1022 8 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 1 weapon_rocketlauncher
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 3 item_armor_combat
+Item: 9 weapon_shotgun
+Item: 2 weapon_rocketlauncher
+Item: 1 weapon_rocketlauncher
+Kill: 10 2 6: ]>ar]< ]_0r]> killed Biker by MOD_ROCKET
+Item: 5 weapon_rocketlauncher
+Item: 9 weapon_rocketlauncher
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Kill: 1022 10 22: <world> killed ]>ar]< ]_0r]> by MOD_TRIGGER_HURT
+Kill: 1022 9 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Kill: 8 5 1: Cadavre killed Phobos by MOD_SHOTGUN
+Kill: 5 2 6: Phobos killed Biker by MOD_ROCKET
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 5 item_armor_combat
+Item: 8 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 8 weapon_shotgun
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 1 item_health_large
+Item: 8 weapon_rocketlauncher
+Item: 6 item_health_large
+Item: 7 item_health_mega
+Kill: 3 8 1: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_SHOTGUN
+Item: 6 weapon_rocketlauncher
+Item: 3 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 6 weapon_rocketlauncher
+Kill: 1 10 1: Biker killed ]>ar]< ]_0r]> by MOD_SHOTGUN
+Kill: 2 3 1: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Item: 1 weapon_shotgun
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Item: 1 weapon_rocketlauncher
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 1 weapon_rocketlauncher
+Kill: 4 1 1: Klesk killed Biker by MOD_SHOTGUN
+Kill: 1022 8 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 4 weapon_rocketlauncher
+Kill: 5 4 3: Phobos killed Klesk by MOD_MACHINEGUN
+Item: 10 item_armor_combat
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 5 weapon_shotgun
+Item: 2 item_armor_combat
+Item: 2 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 7 item_armor_combat
+Item: 7 weapon_rocketlauncher
+Item: 3 weapon_rocketlauncher
+Kill: 5 6 1: Phobos killed Bitterman by MOD_SHOTGUN
+Kill: 8 3 1: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 1 weapon_rocketlauncher
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Kill: 6 5 1: Bitterman killed Phobos by MOD_SHOTGUN
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 2 weapon_railgun
+Item: 10 weapon_shotgun
+Item: 1 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Kill: 3 8 1: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_SHOTGUN
+sayteam: ^1A^2n^3a^4r^5k^6i: I'm on guard at the Red Flag!
+(^1A^2n^3a^4r^5k^6i^7): I'm on guard at the Red Flag!
+Item: 1 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Kill: 4 7 1: Klesk killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 4 weapon_rocketlauncher
+Item: 1 item_health_large
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 7 item_armor_combat
+Item: 1 weapon_rocketlauncher
+Kill: 6 1 1: Bitterman killed Biker by MOD_SHOTGUN
+Item: 6 weapon_rocketlauncher
+Item: 2 item_health_large
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Kill: 8 9 1: Cadavre killed Cadavre by MOD_SHOTGUN
+sayteam: Klesk: I'm on guard at the Blue Flag!
+(Klesk^7): I'm on guard at the Blue Flag!
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Kill: 2 5 10: Biker killed Phobos by MOD_RAILGUN
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 10 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Kill: 1022 2 22: <world> killed Biker by MOD_TRIGGER_HURT
+Item: 7 weapon_shotgun
+Item: 4 item_health_large
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 10 item_health_mega
+Kill: 4 9 1: Klesk killed Cadavre by MOD_SHOTGUN
+Item: 6 weapon_rocketlauncher
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 1 weapon_rocketlauncher
+Item: 1 item_armor_combat
+Kill: 5 4 1: Phobos killed Klesk by MOD_SHOTGUN
+Item: 5 weapon_shotgun
+Item: 2 weapon_rocketlauncher
+Kill: 6 5 1: Bitterman killed Phobos by MOD_SHOTGUN
+Item: 10 weapon_railgun
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 9 weapon_shotgun
+Item: 10 weapon_railgun
+Item: 3 weapon_rocketlauncher
+Item: 10 weapon_railgun
+Kill: 9 8 1: Cadavre killed Cadavre by MOD_SHOTGUN
+Kill: 1022 3 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 10 weapon_railgun
+Item: 6 item_health_large
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 8 item_armor_combat
+Item: 4 weapon_rocketlauncher
+Kill: 1 10 7: Biker killed ]>ar]< ]_0r]> by MOD_ROCKET_SPLASH
+Kill: 3 6 1: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_SHOTGUN
+Item: 1 weapon_railgun
+Kill: 8 7 1: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 4 weapon_shotgun
+Kill: 2 9 7: Biker killed Cadavre by MOD_ROCKET_SPLASH
+Item: 5 weapon_shotgun
+Item: 4 weapon_rocketlauncher
+Item: 3 weapon_rocketlauncher
+Item: 5 weapon_railgun
+Kill: 7 2 1: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_SHOTGUN
+Kill: 1 4 10: Biker killed Klesk by MOD_RAILGUN
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 6 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Item: 6 weapon_rocketlauncher
+Kill: 5 10 10: Phobos killed ]>ar]< ]_0r]> by MOD_RAILGUN
+Kill: 8 5 3: Cadavre killed Phobos by MOD_MACHINEGUN
+Item: 8 weapon_railgun
+Kill: 1022 7 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 5 item_armor_combat
+Kill: 4 9 1: Klesk killed Cadavre by MOD_SHOTGUN
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Item: 2 weapon_railgun
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Kill: 8 3 10: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_RAILGUN
+Item: 5 weapon_shotgun
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 1 item_health_large
+Item: 9 weapon_shotgun
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Kill: 1022 2 22: <world> killed Biker by MOD_TRIGGER_HURT
+Kill: 7 8 1: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_SHOTGUN
+Item: 9 weapon_rocketlauncher
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Kill: 3 4 1: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_SHOTGUN
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 10 weapon_shotgun
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 6 weapon_rocketlauncher
+Item: 1 weapon_rocketlauncher
+Kill: 8 9 1: Cadavre killed Cadavre by MOD_SHOTGUN
+Item: 8 weapon_rocketlauncher
+Item: 1 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Item: 7 item_armor_combat
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Kill: 1022 1 19: <world> killed Biker by MOD_FALLING
+Item: 5 weapon_railgun
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 10 item_health_large
+Item: 4 item_armor_combat
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 7 weapon_rocketlauncher
+Kill: 1022 8 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 5 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 2 weapon_rocketlauncher
+Kill: 1 10 1: Biker killed ]>ar]< ]_0r]> by MOD_SHOTGUN
+Kill: 1022 7 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 2 item_health_mega
+Item: 3 item_health_large
+Item: 6 weapon_rocketlauncher
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Item: 3 weapon_shotgun
+Item: 9 weapon_rocketlauncher
+Item: 1 weapon_rocketlauncher
+Kill: 1022 5 19: <world> killed Phobos by MOD_FALLING
+Kill: 8 9 1: Cadavre killed Cadavre by MOD_SHOTGUN
+Item: 8 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Kill: 1022 1 22: <world> killed Biker by MOD_TRIGGER_HURT
+Kill: 3 6 1: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_SHOTGUN
+Item: 5 item_health_large
+Kill: 7 4 1: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_SHOTGUN
+Kill: 8 5 6: Cadavre killed Phobos by MOD_ROCKET
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Kill: 9 8 1: Cadavre killed Cadavre by MOD_SHOTGUN
+Item: 10 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 9 weapon_rocketlauncher
+Item: 10 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 1 item_armor_combat
+Kill: 3 10 1: ^1A^2n^3a^4r^5k^6i killed ]>ar]< ]_0r]> by MOD_SHOTGUN
+Item: 5 weapon_rocketlauncher
+Item: 6 weapon_rocketlauncher
+Kill: 6 9 1: Bitterman killed Cadavre by MOD_SHOTGUN
+Item: 6 weapon_rocketlauncher
+Item: 6 weapon_rocketlauncher
+Kill: 5 2 7: Phobos killed Biker by MOD_ROCKET_SPLASH
+Kill: 8 5 1: Cadavre killed Phobos by MOD_SHOTGUN
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 4 weapon_shotgun
+Item: 8 weapon_rocketlauncher
+Kill: 1022 7 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Kill: 7 8 1: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_SHOTGUN
+Item: 2 weapon_rocketlauncher
+Kill: 6 4 1: Bitterman killed Klesk by MOD_SHOTGUN
+Kill: 5 10 1: Phobos killed ]>ar]< ]_0r]> by MOD_SHOTGUN
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Kill: 2 7 6: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET
+Item: 6 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+Kill: 1022 2 22: <world> killed Biker by MOD_TRIGGER_HURT
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Kill: 6 3 1: Bitterman killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 1 weapon_rocketlauncher
+Kill: 4 1 1: Klesk killed Biker by MOD_SHOTGUN
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Kill: 5 6 1: Phobos killed Bitterman by MOD_SHOTGUN
+Kill: 1022 9 19: <world> killed Cadavre by MOD_FALLING
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 5 weapon_rocketlauncher
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Kill: 5 4 6: Phobos killed Klesk by MOD_ROCKET
+Kill: 5 5 7: Phobos killed Phobos by MOD_ROCKET_SPLASH
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 2 weapon_shotgun
+Item: 7 weapon_shotgun
+Kill: 1022 10 22: <world> killed ]>ar]< ]_0r]> by MOD_TRIGGER_HURT
+Item: 6 weapon_rocketlauncher
+Item: 2 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Kill: 7 2 1: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_SHOTGUN
+Item: 7 weapon_rocketlauncher
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Kill: 1022 8 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 7 weapon_rocketlauncher
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 2 item_armor_combat
+Item: 5 weapon_rocketlauncher
+Kill: 7 7 7: ^1A^2n^3a^4r^5k^6i killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET_SPLASH
+Item: 3 weapon_rocketlauncher
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 6 item_health_large
+Kill: 8 3 1: Cadavre killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Kill: 3 8 7: ^1A^2n^3a^4r^5k^6i killed Cadavre by MOD_ROCKET_SPLASH
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 3 item_armor_combat
+Item: 1 item_health_large
+Item: 6 weapon_rocketlauncher
+tell: Biker to Cadavre: Number 2 guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Mumbles defend the base
+tell: Biker to Phobos: Phobos get the enemy flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Cyber-Scarecrow get the enemy flag
+Item: 9 weapon_rocketlauncher
+sayteam: ^1A^2n^3a^4r^5k^6i: I'm going to get the enemy flag.
+(^1A^2n^3a^4r^5k^6i^7): I'm going to get the enemy flag.
+Item: 9 weapon_shotgun
+Item: 9 item_health_large
+sayteam: Biker: I'm off to grab the enemy flag!
+(Biker^7): I'm off to grab the enemy flag!
+Kill: 2 5 1: Biker killed Phobos by MOD_SHOTGUN
+Item: 2 weapon_rocketlauncher
+Kill: 3 6 1: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_SHOTGUN
+Item: 7 weapon_rocketlauncher
+Kill: 1022 1 22: <world> killed Biker by MOD_TRIGGER_HURT
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+sayteam: Phobos: I'm on my way to capture the enemy flag.
+(Phobos^7): I'm on my way to capture the enemy flag.
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Kill: 8 9 1: Cadavre killed Cadavre by MOD_SHOTGUN
+Item: 8 weapon_rocketlauncher
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 5 weapon_rocketlauncher
+Kill: 2 7 7: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET_SPLASH
+Kill: 3 4 1: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_SHOTGUN
+sayteam: Cadavre: I am on guard at the Red Flag!
+(Cadavre^7): I am on guard at the Red Flag!
+Item: 5 weapon_shotgun
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 2 weapon_rocketlauncher
+Item: 3 weapon_rocketlauncher
+Item: 3 item_armor_combat
+Kill: 8 5 7: Cadavre killed Phobos by MOD_ROCKET_SPLASH
+Kill: 5 8 6: Phobos killed Cadavre by MOD_ROCKET
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Kill: 3 6 6: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_ROCKET
+Kill: 3 3 7: ^1A^2n^3a^4r^5k^6i killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET_SPLASH
+Item: 9 weapon_rocketlauncher
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 5 weapon_rocketlauncher
+Kill: 1022 8 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 5 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 2 weapon_rocketlauncher
+Item: 9 weapon_rocketlauncher
+Item: 2 item_armor_combat
+Kill: 7 4 1: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_SHOTGUN
+Item: 3 weapon_rocketlauncher
+Item: 7 weapon_shotgun
+Item: 9 weapon_rocketlauncher
+Item: 6 weapon_rocketlauncher
+Item: 8 weapon_rocketlauncher
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 2 weapon_rocketlauncher
+Item: 2 item_health_mega
+Item: 2 weapon_shotgun
+Item: 6 weapon_rocketlauncher
+Item: 9 weapon_rocketlauncher
+Kill: 7 4 1: ^1A^2n^3a^4r^5k^6i killed Klesk by MOD_SHOTGUN
+Item: 5 team_CTF_blueflag
+broadcast: print "Phobos^7 got the BLUE flag!\n"
+Item: 6 weapon_rocketlauncher
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Kill: 1022 9 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Kill: 3 2 6: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_ROCKET
+Item: 5 item_health_large
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Anarki guard the base
+tell: Biker to Cadavre: Zombie Bait defend the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: PAB follow Feeb-o's
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 10 weapon_rocketlauncher
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Kill: 5 8 7: Phobos killed Cadavre by MOD_ROCKET_SPLASH
+Item: 2 item_armor_combat
+Item: 3 weapon_rocketlauncher
+Item: 6 weapon_shotgun
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 7 item_health_large
+Item: 3 item_health_large
+Kill: 6 5 1: Bitterman killed Phobos by MOD_SHOTGUN
+broadcast: print "Bitterman^7 fragged RED's flag carrier!\n"
+Item: 10 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 5 item_armor_combat
+Kill: 6 7 1: Bitterman killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 9 weapon_rocketlauncher
+Item: 9 team_CTF_blueflag
+broadcast: print "Cadavre^7 got the BLUE flag!\n"
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 2 weapon_shotgun
+Kill: 5 10 1: Phobos killed ]>ar]< ]_0r]> by MOD_SHOTGUN
+Item: 4 weapon_railgun
+Kill: 3 6 6: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_ROCKET
+Kill: 3 3 7: ^1A^2n^3a^4r^5k^6i killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET_SPLASH
+Kill: 2 9 1: Biker killed Cadavre by MOD_SHOTGUN
+broadcast: print "Biker^7 fragged RED's flag carrier!\n"
+Item: 5 weapon_rocketlauncher
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Anarki guard the base
+tell: Biker to Phobos: Phobos guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Cyber Surfer accompany Zombie Bait
+tell: Biker to Cadavre: Cadavre follow Cadavre
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 4 weapon_railgun
+Item: 6 weapon_shotgun
+Item: 6 weapon_rocketlauncher
+Item: 2 team_CTF_blueflag
+broadcast: print "Biker^7 returned the BLUE flag!\n"
+Item: 2 weapon_rocketlauncher
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Item: 6 weapon_rocketlauncher
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+tell: Biker to Phobos: Phobos guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Mumbles guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Cyber-Scarecrow get the enemy flag
+tell: Biker to Cadavre: Cadavre get the enemy flag
+sayteam: Biker: I am on my way to capture the enemy flag.
+(Biker^7): I am on my way to capture the enemy flag.
+sayteam: Cadavre: I'm off to grab the enemy flag!
+(Cadavre^7): I'm off to grab the enemy flag!
+Item: 1 weapon_rocketlauncher
+sayteam: ^1A^2n^3a^4r^5k^6i: I am going to capture the enemy flag!
+(^1A^2n^3a^4r^5k^6i^7): I am going to capture the enemy flag!
+Kill: 3 10 1: ^1A^2n^3a^4r^5k^6i killed ]>ar]< ]_0r]> by MOD_SHOTGUN
+Kill: 2 1 6: Biker killed Biker by MOD_ROCKET
+Item: 5 item_health_large
+Item: 2 weapon_rocketlauncher
+Item: 5 weapon_shotgun
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Item: 2 item_health_large
+Item: 6 weapon_railgun
+Item: 8 weapon_rocketlauncher
+Item: 8 item_armor_combat
+Kill: 1022 2 22: <world> killed Biker by MOD_TRIGGER_HURT
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Item: 5 weapon_rocketlauncher
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Kill: 1022 8 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 7 weapon_railgun
+Item: 9 weapon_rocketlauncher
+sayteam: ^1A^2n^3a^4r^5k^6i: Leave defending the Red Flag to me.
+(^1A^2n^3a^4r^5k^6i^7): Leave defending the Red Flag to me.
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Kill: 6 9 1: Bitterman killed Cadavre by MOD_SHOTGUN
+Item: 5 weapon_rocketlauncher
+Item: 1 weapon_rocketlauncher
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 4 item_armor_combat
+Kill: 8 1 1: Cadavre killed Biker by MOD_SHOTGUN
+Item: 7 item_health_large
+Kill: 1022 10 22: <world> killed ]>ar]< ]_0r]> by MOD_TRIGGER_HURT
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Kill: 2 5 1: Biker killed Phobos by MOD_SHOTGUN
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Kill: 1 6 1: Biker killed Bitterman by MOD_SHOTGUN
+Item: 9 weapon_rocketlauncher
+Item: 2 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 2 weapon_rocketlauncher
+Kill: 9 8 7: Cadavre killed Cadavre by MOD_ROCKET_SPLASH
+Item: 1 weapon_rocketlauncher
+Item: 4 weapon_shotgun
+Kill: 7 2 10: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_RAILGUN
+Item: 6 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 7 item_health_large
+Item: 9 item_health_large
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 5 weapon_rocketlauncher
+Kill: 4 1 1: Klesk killed Biker by MOD_SHOTGUN
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Item: 4 weapon_rocketlauncher
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 9 item_health_large
+Kill: 2 7 1: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Kill: 4 6 6: Klesk killed Bitterman by MOD_ROCKET
+Kill: 1022 10 22: <world> killed ]>ar]< ]_0r]> by MOD_TRIGGER_HURT
+Item: 9 team_CTF_blueflag
+broadcast: print "Cadavre^7 got the BLUE flag!\n"
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Kill: 9 4 1: Cadavre killed Klesk by MOD_SHOTGUN
+Item: 6 weapon_shotgun
+Item: 9 weapon_rocketlauncher
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Anarki guard the base
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Cyber Surfer defend the base
+tell: Biker to Cadavre: Cadavre accompany Cadavre
+tell: Biker to Phobos: Colonel follow Laughing-boy
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Kill: 1022 6 22: <world> killed Bitterman by MOD_TRIGGER_HURT
+Kill: 4 5 1: Klesk killed Phobos by MOD_SHOTGUN
+Kill: 1022 8 19: <world> killed Cadavre by MOD_FALLING
+Item: 1 weapon_rocketlauncher
+Kill: 4 9 1: Klesk killed Cadavre by MOD_SHOTGUN
+broadcast: print "Klesk^7 fragged RED's flag carrier!\n"
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 2 weapon_rocketlauncher
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 2 team_CTF_blueflag
+broadcast: print "Biker^7 returned the BLUE flag!\n"
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Item: 10 weapon_rocketlauncher
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Anarki guard the base
+tell: Biker to Cadavre: Zombie Bait get the enemy flag
+tell: Biker to ^1A^2n^3a^4r^5k^6i: Freak-boy get the flag
+tell: Biker to Phobos: Colonel get the enemy flag
+Kill: 4 1 1: Klesk killed Biker by MOD_SHOTGUN
+Item: 3 item_health_mega
+Item: 3 weapon_shotgun
+Kill: 1022 10 22: <world> killed ]>ar]< ]_0r]> by MOD_TRIGGER_HURT
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+sayteam: Cadavre: I am going to get the enemy flag.
+(Cadavre^7): I am going to get the enemy flag.
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Item: 3 weapon_shotgun
+sayteam: Phobos: I am off to grab the enemy flag!
+(Phobos^7): I am off to grab the enemy flag!
+Item: 9 weapon_rocketlauncher
+sayteam: ^1A^2n^3a^4r^5k^6i: I am going to get the enemy flag.
+(^1A^2n^3a^4r^5k^6i^7): I am going to get the enemy flag.
+Item: 2 weapon_rocketlauncher
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 5 weapon_rocketlauncher
+Kill: 3 6 1: ^1A^2n^3a^4r^5k^6i killed Bitterman by MOD_SHOTGUN
+Kill: 9 8 7: Cadavre killed Cadavre by MOD_ROCKET_SPLASH
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 1 weapon_rocketlauncher
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 6 item_armor_combat
+Item: 7 weapon_shotgun
+Kill: 4 9 1: Klesk killed Cadavre by MOD_SHOTGUN
+sayteam: ^1A^2n^3a^4r^5k^6i: Leave defending the Red Flag to me.
+(^1A^2n^3a^4r^5k^6i^7): Leave defending the Red Flag to me.
+Item: 4 weapon_rocketlauncher
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Kill: 5 2 7: Phobos killed Biker by MOD_ROCKET_SPLASH
+Kill: 10 5 1: ]>ar]< ]_0r]> killed Phobos by MOD_SHOTGUN
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Kill: 6 1 1: Bitterman killed Biker by MOD_SHOTGUN
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 5 item_armor_combat
+Item: 10 weapon_rocketlauncher
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Item: 6 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Kill: 6 7 1: Bitterman killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 6 weapon_shotgun
+Item: 1 ammo_shells
+Item: 1 weapon_shotgun
+Item: 1 ammo_bullets
+Item: 1 ammo_bullets
+sayteam: Biker: I am on guard at the Red Flag!
+(Biker^7): I am on guard at the Red Flag!
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Kill: 1022 2 22: <world> killed Biker by MOD_TRIGGER_HURT
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 10 item_health_large
+Item: 6 weapon_rocketlauncher
+Kill: 2 3 1: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 7 item_health_large
+Kill: 1 10 1: Biker killed ]>ar]< ]_0r]> by MOD_SHOTGUN
+Item: 7 weapon_rocketlauncher
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 2 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Kill: 5 6 7: Phobos killed Bitterman by MOD_ROCKET_SPLASH
+Item: 8 item_health_large
+Item: 10 ammo_shells
+Item: 10 weapon_shotgun
+Item: 10 ammo_bullets
+Item: 10 ammo_bullets
+Kill: 7 5 7: ^1A^2n^3a^4r^5k^6i killed Phobos by MOD_ROCKET_SPLASH
+Kill: 7 10 7: ^1A^2n^3a^4r^5k^6i killed ]>ar]< ]_0r]> by MOD_ROCKET_SPLASH
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 5 ammo_shells
+Item: 5 weapon_shotgun
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Kill: 1022 7 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 2 item_armor_combat
+Item: 2 weapon_rocketlauncher
+Item: 7 ammo_shells
+Item: 7 weapon_shotgun
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Item: 1 item_health_large
+Item: 3 weapon_rocketlauncher
+Item: 2 weapon_rocketlauncher
+Item: 8 item_health_large
+Kill: 1022 9 22: <world> killed Cadavre by MOD_TRIGGER_HURT
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 4 item_armor_combat
+Item: 3 weapon_shotgun
+Item: 9 ammo_shells
+Item: 9 weapon_shotgun
+Item: 9 ammo_bullets
+Item: 9 ammo_bullets
+Kill: 1022 2 19: <world> killed Biker by MOD_FALLING
+Item: 8 weapon_shotgun
+broadcast: print "]>ar]< ]_0r]>^7 disconnected\n"
+ClientDisconnect: 10
+Item: 1 weapon_rocketlauncher
+Kill: 6 3 1: Bitterman killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 2 ammo_shells
+Item: 2 weapon_shotgun
+Item: 2 ammo_bullets
+Item: 2 ammo_bullets
+Item: 8 weapon_rocketlauncher
+Item: 3 ammo_shells
+Item: 3 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Item: 3 item_armor_combat
+Kill: 1 8 6: Biker killed Cadavre by MOD_ROCKET
+Kill: 1022 4 22: <world> killed Klesk by MOD_TRIGGER_HURT
+Item: 6 weapon_rocketlauncher
+Kill: 2 6 1: Biker killed Bitterman by MOD_SHOTGUN
+Item: 8 ammo_shells
+Item: 8 weapon_shotgun
+Item: 8 ammo_bullets
+Item: 8 ammo_bullets
+Item: 6 ammo_shells
+Item: 6 weapon_shotgun
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 4 ammo_shells
+Item: 4 weapon_shotgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+----- Server Shutdown (Received signal 2) -----
+==== ShutdownGame ====
+ShutdownGame:
+------------------------------------------------------------
+AAS shutdown.
+---------------------------
